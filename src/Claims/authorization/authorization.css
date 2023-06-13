@@ -1,0 +1,30 @@
+.authorization{
+ border: 1px solid lightslategray;
+ margin: 2%;
+ 
+}
+
+
+.author{
+ max-height: 4vh;
+ width: 30%;
+}
+
+.diagnosis{
+ display: flex;
+ flex-direction: column;
+}
+
+.diag{
+ 
+}
+
+.headin{
+ display: flex;
+ justify-content: space-between;
+ padding: 2%;
+}
+
+.get-date{
+ max-height: 4vh;
+}

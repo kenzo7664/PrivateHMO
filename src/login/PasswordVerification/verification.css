@@ -1,0 +1,62 @@
+.forrm {
+  margin-top: 90px;
+  
+  align-items: center;
+  padding: 20px;
+ 
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  margin: 0.5rem 0;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  position: relative;
+}
+
+.form-btn {
+  background-color: #f2f2f2;
+  width: 30%;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  color: black;
+  
+}
+.form-btn:hover{
+  cursor: pointer;
+  background-color: hsl(154, 59%, 51%);
+}
+
+.eye-slash {
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+small {
+  visibility: hidden;
+  color: black;
+  position: absolute;
+  top: 45px;
+  font-size: 10px;
+  right: 0px;
+  text-align: center;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+.form-control.success small {
+  visibility: visible;
+  color: #2ecc71;
+}
+
+
+

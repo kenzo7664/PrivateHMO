@@ -1,0 +1,75 @@
+.welcome-text {
+  color: royalblue;
+  font-size: 23px;
+}
+.logout {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  background-color: royalblue;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 16px 24px;
+}
+.logout:hover {
+  color: #f8a370;
+  box-shadow: 1px 1px 8px 0px rgba(248, 163, 112, 0.75);
+}
+/* .logout {
+  background-color: royalblue;
+  color: white;
+  margin-top: 5px;
+  font-size: 35px;
+  
+  
+  
+  border-radius: 10px;
+  cursor: pointer;
+} */
+/* 
+.icn {
+    font-size: 30px;
+    margin-left: 30%;
+   
+}
+
+.icon{
+  display: none;
+} */
+@media screen and (max-width: 400px) {
+  .welcome-text {
+    margin-left: -78%;
+    margin-top: 5%;
+  }
+
+  .icn {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+    margin-top: -40%;
+    margin-left: 36%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 402px) and (max-width: 430px) {
+  .welcome-text {
+    margin-left: -78%;
+    margin-top: 5%;
+  }
+
+  .icn {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+    margin-top: -40%;
+    margin-left: 36%;
+    font-size: 20px;
+  }
+}

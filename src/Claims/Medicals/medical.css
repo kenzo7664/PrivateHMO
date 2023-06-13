@@ -1,0 +1,51 @@
+.Medicals{
+  border: 1px solid lightslategray;
+  margin: 2%;
+  height: auto;
+}
+
+.medicals {
+  border: 1px solid lightslategray;
+  margin: 2%;
+}
+
+.amount{
+  display: flex;
+  padding-left: 25px;
+}
+
+.classification-desc{
+ display: flex;
+
+ padding: 2%;
+}
+
+.approved{
+ display: flex;
+ justify-content: space-around;
+ padding: 2%;
+}
+
+.charges-approved {
+  width: 39%;
+  max-height: 4vh;
+  
+}
+
+.description{
+   width: 45%;
+   margin: 0.3rem;
+}
+
+.charges{
+  max-height: 4vh;
+  margin-left: 8px;
+  width: 83%;
+}
+
+.comment{
+ display: flex;
+ justify-content: space-around;
+ padding: 2%;
+}
+

@@ -1,0 +1,163 @@
+body {
+}
+
+h2 {
+  color: black;
+}
+
+.claims-wrapper {
+  background: #fff;
+  width: 70%;
+  height: auto;
+  margin: 30px auto;
+
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.claims-content {
+  margin: auto;
+  width: 50vw;
+  height: auto;
+  border: 2px solid lightslategray;
+  padding: 15px;
+  border-radius: 30px;
+}
+.heading {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-claims {
+  margin-top: 10px;
+  margin-left: 55%;
+  border: 1px solid lightslategray;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 22vw;
+}
+
+.input {
+  max-width: 170px;
+  max-height: 5vh;
+}
+
+.submit-btn {
+  width: 100%;
+  padding-top: 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.btnn1 {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+
+  background-color: royalblue;
+  outline: none;
+  border: none;
+  color: white;
+}
+.btnn1:hover {
+  cursor: pointer;
+
+  /* background: #f8a370;
+  border-color: #f8a370; */
+}
+.get-form {
+  max-width: 100px;
+  max-height: 4vh;
+}
+
+.Get {
+  max-width: 10vw;
+  max-height: 4vh;
+  background: lightslategray;
+}
+
+select {
+  max-height: 4vh;
+}
+
+.radio {
+  width: 1vw;
+  height: 3vh;
+}
+
+.Provider-type {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+
+.radio-inputs {
+  border: 1px solid lightslategray;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  padding: 1px;
+  max-height: 6vh;
+}
+
+.provider {
+  border: 1px solid lightslategray;
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  padding: 5px;
+}
+
+.prov {
+  max-height: 4vh;
+  width: 34vw;
+}
+
+.enrolee {
+  border: 1px solid lightslategray;
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  padding: 5px;
+}
+
+.bck {
+  padding: 5px;
+  border-radius: 10px;
+  background: white;
+}
+.bck:hover {
+  cursor: pointer;
+  background: #f8a370;
+  border-color: #f8a370;
+}
+
+.small-table {
+  padding: 30px;
+}
+.claimsTableWrapper {
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 30px;
+}
+.addClaimsWrapper {
+  display: flex;
+}
+.addClaimsReload,
+.addClaimsReloadBack {
+  margin-left: 10px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  outline: none;
+  background-color: royalblue;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.addClaimsReload:hover,
+.addClaimsReloadBack:hover {
+  box-shadow: 0px 0px 5px 0px royalblue;
+}

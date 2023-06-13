@@ -1,0 +1,225 @@
+/* .table {
+  color: #333;
+  background: white;
+  border: 1px solid grey;
+  font-size: 17px;
+  width: 100%;
+} */
+
+.claimsHistoryWrapper {
+  display: flex;
+}
+.back {
+  display: flex;
+  justify-content: space-between;
+}
+.submittedListWrapper {
+  display: flex;
+}
+.submittedListRight {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+.submittedListTop {
+  display: flex;
+  margin-bottom: 30px;
+  width: 100%;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+.submittedListFilterWrapper {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.backToPending {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.backToPending:hover {
+  background-color: silver;
+  border: 1px solid transparent;
+  color: white;
+}
+.claimsStatusFilter {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  border-bottom: 1px solid silver;
+  padding: 0 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.claimsStatusFilterInput {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.monthsFilterWrapper {
+  position: relative;
+}
+.monthsFilter {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  border-bottom: 1px solid silver;
+  padding: 0 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.monthsFilterInput {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.monthsList {
+  height: auto;
+  max-height: 150px;
+  width: 70%;
+  /* background-color: red; */
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  z-index: 2;
+  padding: 0 10px;
+  overflow-y: scroll;
+  box-shadow: 0px 0px 5px 0px rgba(164, 162, 162, 0.55);
+  left: 20%;
+  font-size: 16px;
+}
+
+.monthsListItem {
+  border-bottom: 1px solid silver;
+  padding: 5px;
+  cursor: pointer;
+  font-size: small;
+}
+.monthsListItem:hover {
+  background-color: #f5f5f5;
+}
+.inputMonthName {
+  font-size: smaller;
+}
+.yearInput {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.yearInput {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  border-bottom: 1px solid silver;
+  padding: 0 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.FilteredProviderList {
+  height: auto;
+  max-height: 150px;
+  width: 30%;
+  /* background-color: red; */
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  z-index: 2;
+  padding: 0 20px;
+  overflow-y: scroll;
+  box-shadow: 0px 0px 5px 0px rgba(164, 162, 162, 0.55);
+}
+
+.FilteredProviderListItem {
+  border-bottom: 1px solid silver;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.FilteredProviderListItem:hover {
+  background-color: #f5f5f5;
+}
+
+.styledTableWrapper {
+  width: 100%;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.submittedListStyledTable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 600px;
+  width: 100%;
+  border: none;
+  position: relative;
+}
+.submittedListStyledTable thead tr {
+  background-color: royalblue;
+  color: #ffffff;
+  text-align: left;
+  position: sticky;
+  top: 0;
+}
+.submittedListStyledTable thead tr th {
+  background-color: royalblue;
+  color: #ffffff;
+  text-align: left;
+}
+
+.submittedListStyledTable th,
+.submittedListStyledTable td {
+  padding: 12px 15px;
+}
+
+.submittedListStyledTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.submittedListStyledTable tbody tr:nth-of-type(odd) {
+  background-color: #fff;
+}
+
+.submittedListStyledTable tbody tr:last-of-type {
+  border-bottom: 2px solid royalblue;
+}
+
+.submittedListStyledTable tbody tr:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 5px 0px rgba(164, 162, 162, 0.55);
+  cursor: pointer;
+}
+.noClaimsYet,
+.noClaims {
+  margin-top: 20px;
+}
+.showAll {
+  background-color: royalblue;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 50px;
+  color: white;
+  /* align-self: flex-end; */
+  justify-self: right;
+}
+.showAll:hover {
+  box-shadow: 0px 0px 5px 0px royalblue;
+}
